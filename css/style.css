@@ -402,7 +402,7 @@ input:focus {
 	right: -13px;
 	width: 17px;
 	height: 22px;
-	background: url(../img/rub.png) center no-repeat;
+	background: url(../img/gr2.png) center no-repeat;
 }
 .old { text-decoration: line-through; }
 .product-call {
@@ -463,12 +463,12 @@ input:focus {
 .reasons li {
 	margin: 10px 0;
 	position: relative;
-	opacity: 0;
+	/*opacity: 0;
 	transition: all .4s ease-in-out;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 	-o-transition: all .4s ease-in-out;
-	-ms-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;*/
 }
 .reasons li:before {
 	content: '';
@@ -779,4 +779,9 @@ input:focus {
 }
 .strike {
 	text-decoration: line-through;
+}
+.title-block__text {
+	font-family: BagueBd;
+	font-size: 41px;
+	color: #E7000F;
 }

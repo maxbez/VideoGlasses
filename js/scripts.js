@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 	setInterval(function() {
 		var index = $(".slide.active").index() + 1;
-		if( index > 2 )
+		if( index > 1 )
 			index = 0;
 		$(".slide").removeClass("active");
 		$(".slide").eq(index).addClass("active");
@@ -108,8 +108,8 @@ $(".product-call").click(function() {
 	$(".message-block .submit-button").text("Заказать очки по акции");
 });
 $(".discount-call").click(function() {
-	$(".form-message h1").text("Скидка 10%");
-	$(".form-message input[name='type']").val("Скидка 10%");
+	$(".form-message h1").text("Скидка 5%");
+	$(".form-message input[name='type']").val("Скидка 5%");
 	$(".message-block .form-submit").fadeIn();
 	$(".message-block .submit-button").text("Заказать очки по акции");
 });
