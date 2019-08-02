@@ -488,7 +488,7 @@ input:focus {
 }
 .reasons p {
 	font-size: 14px;
-	color: #000;
+	color: darkgreen;
 }
 .reasons li span {
 	font-family: OpenSansBd;
